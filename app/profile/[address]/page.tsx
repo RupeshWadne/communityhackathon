@@ -39,7 +39,7 @@ export default function Page({ params }: { params: { address: string } }) {
                         {!ownedNftsLoading && ownedNfts ? (
                             ownedNfts?.length > 0 ? (
                                 ownedNfts.map((nft) => (
-                                    <div className="">
+                                    <div key={nft.metadata.id} className="">
                                         <div className="max-w-sm border rounded-lg shadow-[5px_5px_0px_0px_rgba(109,40,217)] bg-teal-300">
                                                 <img className="rounded-lg items-stretch overflow-hidden w-full h-full" 
                                                 src={nft?.metadata?.image || ""} alt=""/>
