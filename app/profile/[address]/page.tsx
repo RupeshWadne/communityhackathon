@@ -53,7 +53,7 @@ export default function Page({ params }: { params: { address: string } }) {
                                         </div>
                                     </div>
                                 ))
-                            ) : (<h3>You don't have any collection</h3>)
+                            ) : (<h3>You dont have any collection</h3>)
                         ) : (
                             <p className="text-black">Loading....</p>
                         )}
