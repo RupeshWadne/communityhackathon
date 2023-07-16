@@ -27,7 +27,7 @@ export default function Page({ params }: { params: { address: string } }) {
 
     return (
         <div className="bg-white">
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="relative px-6 pt-14 flex justify-center">
                 <div className="absolute flex flex-col overflow-y-hidden mt-14 w-2/3 h-[90vh]">
                     <h1 className="text-black">profile <button className=" border border-black p-1 rounded-md shadow-[5px_5px_0px_0px_rgba(109,40,217)]" onClick={signout}>
