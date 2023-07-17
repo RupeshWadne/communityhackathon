@@ -40,7 +40,7 @@ export default function Page({ params }: { params: { address: string } }) {
                             ownedNfts?.length > 0 ? (
                                 ownedNfts.map((nft) => (
                                     <div key={nft.metadata.id} className="">
-                                        <div className="max-w-sm border rounded-lg shadow-[5px_5px_0px_0px_rgba(109,40,217)] bg-teal-300">
+                                        <div className="max-w-sm border rounded-lg shadow-[5px_5px_0px_0px_rgba(109,40,217)] bg-gradient-to-r from-red-200 via-red-300 to-yellow-200">
                                                 <img className="rounded-lg items-stretch overflow-hidden w-full h-full" 
                                                 src={nft?.metadata?.image || ""} alt=""/>
                                             <div className="p-5">
